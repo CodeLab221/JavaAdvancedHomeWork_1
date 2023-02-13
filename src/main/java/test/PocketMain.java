@@ -19,7 +19,8 @@ public class PocketMain {
     }
 
     public void setMoney(int money) {
-
+        // We provide x < 0 and x > 3000 conditions, if the values are within specified range, the money (user input)
+        // satifies our conditions and leads to the else statement where the input value is asigned to our object variable money.
         if (money < 0) {
             System.out.println("You can't insert negative amount of money, Can you? Please try again!");
         } else if (money > 3000) {
