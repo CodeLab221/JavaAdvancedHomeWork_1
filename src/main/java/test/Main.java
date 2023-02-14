@@ -6,7 +6,7 @@ public class Main {
   //  public  PocketMain pocket;
 
     public static void main(String[] args) {
-        //Create mew PocketMain object
+        //Create new PocketMain object
         PocketMain pocket1 = new PocketMain(0);
         // Define Scanner object.
         Scanner sc = new Scanner(System.in);
