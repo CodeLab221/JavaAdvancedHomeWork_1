@@ -12,7 +12,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the amount of money inserted into the Pocket!");
-        //User Scanner object sc to assign value to moneyInput.
+        //Use Scanner object sc to assign value to moneyInput.
         int moneyInput = sc.nextInt();
 
         // We use our Setter method to set a value to variable money in the PocketMain pocket1 Object.
