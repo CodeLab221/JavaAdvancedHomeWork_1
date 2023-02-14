@@ -27,6 +27,10 @@ public class PocketMain {
             System.out.println( "I Dont Have Enough Space for all this money!" );
         } else {
             this.money = money;
+            
+            //Keep in mind that "money" is an int, so it recieves an int value.
+            //Most improtantly setMoney method assigns money int value to this.money (pocket class).
+            //In the current application, money comes from user input via scanner.
 
         }
     }
